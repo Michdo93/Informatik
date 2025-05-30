@@ -1,4 +1,4 @@
-# Kommentare
+# Kommentare & Dokumentation
 
 Kommentare sind in jeder Programmiersprache ein wichtiger Bestandteil, um Code zu dokumentieren und lesbarer zu machen.
 
