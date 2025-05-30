@@ -58,6 +58,23 @@ Hier ist eine Übersicht, wie **einfache (einzeilige)** und **mehrzeilige Kommen
   <!-- Kommentar -->
   ```
 
+In HTML wird nicht unterschieden, ob ein Kommentar einzeilig oder mehrzeilig sein muss. Das liegt auch an Tags allgemein. Ich kann Tags bspw. wie folgt verwenden:
+
+  ```html
+  <div>Container</div>
+  <div>
+      Container
+  </div>
+  ```
+
+Entsprechend kann ich dies auch für merhzeilige Kommentare anwenden:
+
+  ```html
+  <!--
+      Kommentar
+  -->
+  ```
+
 ---
 
 ### 🔹 **CSS**
