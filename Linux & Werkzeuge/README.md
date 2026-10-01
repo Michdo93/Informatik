@@ -13,6 +13,9 @@ Praktisches Wissen rund um Linux-Systeme, wie sie im Labor überall vorkommen: R
 
 | Dokument | Inhalt |
 | --- | --- |
+| [systemd-Services](systemd-Services.md) | Eigene Service-Units: Typen (`simple`, `forking`, `oneshot` …), `ExecStartPre`/`ExecStart`/`ExecStop`, Abhängigkeiten, verzögerter Start, Benutzer, Restart-Limits, Logging |
+| [Bash-Skripte](Bash-Skripte.md) | Robuste Skripte: Shebang, Strict Mode, Quoting, Bedingungen, Schleifen, Funktionen, Exit-Codes, `trap`, ShellCheck |
+| [Benutzer, Gruppen & Rechte](Benutzer%2C%20Gruppen%20%26%20Rechte.md) | Benutzer und Gruppen verwalten, `rwx` und Oktalschreibweise, `chmod`/`chown`, SGID, umask, `sudo`, POSIX-ACLs |
 | [Cron & systemd-Timer](Cron%20%26%20systemd-Timer.md) | Zeitgesteuerte Aufgaben: Crontab-Syntax, Cron-Job vs. Cron-Task, Fallen, anacron, systemd-Timer, Verwaltung mit Ansible |
 
 ---

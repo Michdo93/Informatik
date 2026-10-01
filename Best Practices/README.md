@@ -19,6 +19,7 @@ Bewährte Vorgehensweisen für den Labor- und Projektalltag. Jedes Dokument begi
 | [Zertifikate](Zertifikate.md) | TLS ab dem ersten Tag, automatisch erneuern, `<hostname>_ca.crt` |
 | [MQTT](MQTT.md) | TLS + Passwörter + ACL, ein Broker pro gesteuertem Gerät |
 | [Ansible](Ansible.md) | Gruppieren, kleine wiederverwendbare Rollen, Gerät sofort ins Inventar |
+| [Web-Server & Deployment](Web-Server%20%26%20Deployment.md) | Nginx als Reverse Proxy mit HTTPS, Flask über Gunicorn, Node.js über pm2 |
 
 ## Reihenfolge bei einem neuen Gerät
 

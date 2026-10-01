@@ -2,6 +2,8 @@
 
 Dieses Repository sammelt praxisnahes IT-Wissen für alle, die im Labor (Smart Home, Robotik, autonome Systeme) an der **Hochschule Furtwangen (HFU)** mitarbeiten: studentische Hilfskräfte, Praktikantinnen und Praktikanten sowie Studierende in Projekt- und Abschlussarbeiten.
 
+Wer sich für eine Mitarbeit im Labor interessiert, findet Voraussetzungen, Aufgaben und Rahmenbedingungen im Repository **[Praktika im Smart Home Labor](https://github.com/Michdo93/Praktika-Smart-Home-Labor)**.
+
 Ziel ist eine **schnelle Einarbeitung**: Konventionen, Best Practices und Hintergrundwissen, die man im Studium oft nur am Rande oder gar nicht lernt – die im Laboralltag aber jeden Tag gebraucht werden.
 
 <!-- TOC -->
@@ -18,13 +20,14 @@ Ziel ist eine **schnelle Einarbeitung**: Konventionen, Best Practices und Hinter
 | Ordner | Worum geht es? |
 | --- | --- |
 | [Code-Formatierung](Code-Formatierung/README.md) | Einrückung, Namenskonventionen, Kommentare, Logging, Projektstruktur, Heredoc; Styleguides für **Python, JavaScript, C, C++, C#, Java** |
-| [Best Practices](Best%20Practices/README.md) | Dokumentation, **DHCP** (feste IPs), **Zertifikate** (HTTPS von Anfang an), **SSH** (Port, Keys, sshpass), **MQTT** (TLS, Passwörter, ACL), **Ansible** (Rollen, Gruppen, Inventar) |
+| [Best Practices](Best%20Practices/README.md) | Dokumentation, **DHCP** (feste IPs), **Zertifikate** (HTTPS von Anfang an), **SSH** (Port, Keys, sshpass, scp/rsync), **MQTT** (TLS, Passwörter, ACL), **Ansible** (Rollen, Gruppen, Inventar), **Web-Server** (Nginx, Gunicorn, pm2) |
 | [Zugriffskontrolle](Zugriffskontrolle/README.md) | Authentifizierung vs. Autorisierung, Whitelist/Blacklist, ACLs in Betriebssystem, Datenbank, MQTT, Firewall, openHAB |
 | [Backup-Strategien](Backup-Strategien/README.md) | Voll/inkrementell/differentiell, Snapshots, VMs vs. Container vs. Datenbanken, Git als Backup, Skripte mit Cron, tar + NAS, Retention, Export/Import, Ansible, Wiederherstellung |
 | [Design Pattern](Design%20Pattern/README.md) | Was Entwurfsmuster sind (und was nicht) und alle **23 GoF-Muster** mit Diagramm und Python-Beispiel |
 | [Software-Konzepte](Software-Konzepte/README.md) | Templates & Templating, Skeleton/Boilerplate/Scaffolding, Bootstrapping, Orchestrierung & Choreografie |
 | [Workarounds & Hacks](Workarounds%20%26%20Hacks/README.md) | Polyfills, Feature Detection, Monkey Patching, Cross-Plattform-Tricks, technische Schulden |
-| [Linux & Werkzeuge](Linux%20%26%20Werkzeuge/README.md) | Cron und systemd-Timer |
+| [Linux & Werkzeuge](Linux%20%26%20Werkzeuge/README.md) | **systemd-Services**, Bash-Skripte, Benutzer, Gruppen & Rechte, Cron und systemd-Timer |
+| [Netzwerk](Netzwerk/README.md) | IP, Subnetze, Ports, `ping`, ARP, `nmap`, Switches und Schleifen, **HTTP & REST**, Smart-Home-Funkstandards (Zigbee, Z-Wave, Thread, Matter) |
 | [Debugging](Debugging/README.md) | Systematisches Vorgehen, Werkzeuge, **Remote-Debugging** auf Pi, VM und Container |
 | [Compiler & Build](Compiler%20%26%20Build/README.md) | Compiler, Interpreter, JIT, Linker, Build-Systeme, **Cross-Compiling** |
 | [Begriffe & Herkunft](Begriffe%20%26%20Herkunft/README.md) | Warum heißt ein Bug „Bug“? Namensherkunft und Analogien |
@@ -37,20 +40,21 @@ Ziel ist eine **schnelle Einarbeitung**: Konventionen, Best Practices und Hinter
 
 1. [Best Practice Dokumentation](Best%20Practices/Dokumentation.md) – wie wir dokumentieren (Markdown, Englisch, vollständig)
 2. [Code-Formatierung](Code-Formatierung/README.md) – und der Styleguide der eigenen Sprache
-3. [DHCP](Best%20Practices/DHCP.md), [SSH](Best%20Practices/SSH.md), [Zertifikate](Best%20Practices/Zertifikate.md) – bevor ein neues Gerät ins Netz kommt
-4. [Technische Schulden](Workarounds%20%26%20Hacks/Technische%20Schulden.md) – warum Provisorien teuer werden
+3. [Linux & Werkzeuge](Linux%20%26%20Werkzeuge/README.md) und [Netzwerk-Grundlagen](Netzwerk/Netzwerk-Grundlagen.md) – das Handwerkszeug für jedes Laborsystem
+4. [DHCP](Best%20Practices/DHCP.md), [SSH](Best%20Practices/SSH.md), [Zertifikate](Best%20Practices/Zertifikate.md) – bevor ein neues Gerät ins Netz kommt
+5. [Technische Schulden](Workarounds%20%26%20Hacks/Technische%20Schulden.md) – warum Provisorien teuer werden
 
 **Sobald Geräte und Dienste betrieben werden:**
 
-5. [MQTT](Best%20Practices/MQTT.md) und [Zugriffskontrolle](Zugriffskontrolle/README.md)
-6. [Ansible](Best%20Practices/Ansible.md) und [Cron & systemd-Timer](Linux%20%26%20Werkzeuge/Cron%20%26%20systemd-Timer.md)
-7. [Backup-Strategien](Backup-Strategien/README.md) – **bevor** etwas verloren geht
+6. [MQTT](Best%20Practices/MQTT.md) und [Zugriffskontrolle](Zugriffskontrolle/README.md)
+7. [Ansible](Best%20Practices/Ansible.md), [Cron & systemd-Timer](Linux%20%26%20Werkzeuge/Cron%20%26%20systemd-Timer.md), [HTTP & REST](Netzwerk/HTTP%20%26%20REST.md) und [Web-Server & Deployment](Best%20Practices/Web-Server%20%26%20Deployment.md)
+8. [Backup-Strategien](Backup-Strategien/README.md) – **bevor** etwas verloren geht
 
 **Zum Vertiefen und Nachschlagen:**
 
-8. [Debugging](Debugging/README.md), [Compiler & Build](Compiler%20%26%20Build/README.md)
-9. [Design Pattern](Design%20Pattern/README.md), [Software-Konzepte](Software-Konzepte/README.md)
-10. [Workarounds & Hacks](Workarounds%20%26%20Hacks/README.md), [Begriffe & Herkunft](Begriffe%20%26%20Herkunft/README.md)
+9. [Debugging](Debugging/README.md), [Compiler & Build](Compiler%20%26%20Build/README.md)
+10. [Design Pattern](Design%20Pattern/README.md), [Software-Konzepte](Software-Konzepte/README.md)
+11. [Workarounds & Hacks](Workarounds%20%26%20Hacks/README.md), [Begriffe & Herkunft](Begriffe%20%26%20Herkunft/README.md)
 
 ---
 

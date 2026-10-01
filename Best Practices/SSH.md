@@ -15,6 +15,7 @@
 - [Public-/Private-Key](#public-private-key)
 - [SSH-Client-Konfiguration](#ssh-client-konfiguration)
 - [sshpass](#sshpass)
+- [Dateien übertragen: scp, rsync, sftp](#dateien-übertragen-scp-rsync-sftp)
 - [Weitere Härtung](#weitere-härtung)
 - [Checkliste](#checkliste)
 <!-- /TOC -->
@@ -156,6 +157,41 @@ sshpass -f /etc/openhab/secrets/nas.pass ssh -p 2222 -o StrictHostKeyChecking=ac
 ```
 
 > **Abwägung:** Wo immer es geht, ist ein **eigener SSH-Schlüssel ohne Passphrase für den Dienst-Account** (z. B. `openhab`) mit eingeschränkten Rechten die sicherere Variante, weil dann gar kein Passwort-Login auf dem Zielsystem nötig ist. `sshpass` ist das Werkzeug für alle Fälle, in denen das nicht möglich oder (noch) nicht eingerichtet ist. Deshalb gehört es bei jeder SSH-Installation mit dazu.
+
+---
+
+## Dateien übertragen: scp, rsync, sftp
+
+Über SSH lassen sich auch Dateien sicher kopieren. Wichtig: Bei **`scp`** wird der Port mit **großem `-P`** angegeben, bei `ssh` mit kleinem `-p`.
+
+```bash
+# local -> remote
+scp -P 2222 config.yaml pi@192.168.10.21:/opt/lab/app/
+# remote -> local
+scp -P 2222 pi@192.168.10.21:/var/log/syslog ./syslog-pi.txt
+# whole directory
+scp -P 2222 -r ./dist pi@192.168.10.21:/opt/lab/app/
+# with an alias from ~/.ssh/config (port, user, key are taken from there)
+scp config.yaml pi-mqtt:/opt/lab/app/
+```
+
+**rsync** überträgt nur **Änderungen**, kann abgebrochene Übertragungen fortsetzen und Rechte erhalten – ideal für größere Verzeichnisse, Deployments und Backups (→ [Tar & NAS](../Backup-Strategien/Tar%20%26%20NAS.md)):
+
+```bash
+rsync -avz --delete -e "ssh -p 2222" ./app/ pi@192.168.10.21:/opt/lab/app/
+#      │││   │
+#      │││   └─ delete files on the target that no longer exist locally (careful!)
+#      ││└─ compress during transfer
+#      │└─ verbose
+#      └─ archive: recursive, keep permissions, times, symlinks
+rsync -avzn ...     # -n = dry run: show what would happen
+```
+
+> Auf den **abschließenden Schrägstrich** achten: `./app/` kopiert den **Inhalt** von `app`, `./app` den **Ordner selbst** in das Ziel.
+
+**sftp** bietet eine interaktive Sitzung (`sftp -P 2222 pi@host`, dann `put`, `get`, `ls`); grafische Clients wie **FileZilla** oder **WinSCP** nutzen dasselbe Protokoll.
+
+Mit `sshpass` funktionieren auch `scp` und `rsync` nicht-interaktiv: `sshpass -f ~/.ssh/host.pass scp -P 2222 datei user@host:/ziel/`.
 
 ---
 
