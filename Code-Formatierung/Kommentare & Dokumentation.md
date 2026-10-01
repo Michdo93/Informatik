@@ -2,6 +2,31 @@
 
 Kommentare sind in jeder Programmiersprache ein wichtiger Bestandteil, um Code zu dokumentieren und lesbarer zu machen.
 
+<!-- TOC -->
+## Inhaltsverzeichnis
+
+- [Übersicht einzeilige & mehrzeilige Kommentare](#übersicht-einzeilige--mehrzeilige-kommentare)
+  - [🔹 C / C++ / Java / JavaScript / C#](#-c--c--java--javascript--c)
+  - [🔹 Python](#-python)
+  - [🔹 Ruby](#-ruby)
+  - [🔹 HTML](#-html)
+  - [🔹 CSS](#-css)
+  - [🔹 Shell (Bash)](#-shell-bash)
+  - [🔹 PHP](#-php)
+  - [🔹 Go](#-go)
+  - [🔹 Swift](#-swift)
+  - [🔹 Rust](#-rust)
+- [Dokumentationsstandards & -formate](#dokumentationsstandards---formate)
+  - [🟨 1. Javadoc (für Java)](#-1-javadoc-für-java)
+  - [🟩 2. PHPDoc (für PHP)](#-2-phpdoc-für-php)
+  - [🟦 3. Doxygen (für C, C++, Java, Python, etc.)](#-3-doxygen-für-c-c-java-python-etc)
+  - [🟪 4. Docstrings (für Python, PEP 257 Standard)](#-4-docstrings-für-python-pep-257-standard)
+  - [🟥 5. XML Documentation Comments (für C#)](#-5-xml-documentation-comments-für-c)
+  - [🟫 6. Rustdoc (für Rust)](#-6-rustdoc-für-rust)
+  - [🟧 7. JsDoc (für JavaScript/TypeScript)](#-7-jsdoc-für-javascripttypescript)
+  - [Übersichtstabelle](#übersichtstabelle)
+<!-- /TOC -->
+
 ## Übersicht einzeilige & mehrzeilige Kommentare
 
 Hier ist eine Übersicht, wie **einfache (einzeilige)** und **mehrzeilige Kommentare** in verschiedenen Programmiersprachen funktionieren:

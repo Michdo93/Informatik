@@ -4,6 +4,23 @@ Auch für **Fehlermeldungen, Logging und Exceptions** gibt es **Standards und Be
 
 ---
 
+<!-- TOC -->
+## Inhaltsverzeichnis
+
+- [🛠️ 1. Fehlermeldungen (Error Messages)](#️-1-fehlermeldungen-error-messages)
+  - [✅ Best Practices für Fehlermeldungen](#-best-practices-für-fehlermeldungen)
+  - [🧾 Beispiel (für Frontend und Logging)](#-beispiel-für-frontend-und-logging)
+- [🧱 2. Logging-Standards](#-2-logging-standards)
+  - [📒 Gängige Log-Level (nach Syslog & RFC 5424)](#-gängige-log-level-nach-syslog--rfc-5424)
+  - [🔧 Formate und Tools je nach Sprache](#-formate-und-tools-je-nach-sprache)
+  - [🔄 Beispiel (strukturierter Log in JSON)](#-beispiel-strukturierter-log-in-json)
+- [🚨 3. Exceptions & Fehlerbehandlung](#-3-exceptions--fehlerbehandlung)
+  - [🔄 Prinzipien moderner Fehlerbehandlung](#-prinzipien-moderner-fehlerbehandlung)
+  - [🧱 Beispiele: Eigene Fehlerklassen](#-beispiele-eigene-fehlerklassen)
+- [🧾 Standards und Formate](#-standards-und-formate)
+- [🔄 Optional: Logging-Integrationen](#-optional-logging-integrationen)
+<!-- /TOC -->
+
 ## 🛠️ 1. **Fehlermeldungen (Error Messages)**
 
 ### ✅ **Best Practices für Fehlermeldungen**

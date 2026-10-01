@@ -4,6 +4,18 @@ Auch für **Einrückung (Indentation)** und **Zeilenumbrüche (Line Breaks / Lin
 
 ---
 
+<!-- TOC -->
+## Inhaltsverzeichnis
+
+- [🧭 Übersicht: Standards für Einrückung & Zeilenumbrüche](#-übersicht-standards-für-einrückung--zeilenumbrüche)
+  - [🔹 Einrückung](#-einrückung)
+  - [🔹 Zeilenumbrüche (Line Breaks)](#-zeilenumbrüche-line-breaks)
+- [📚 Sprachempfehlungen im Detail](#-sprachempfehlungen-im-detail)
+- [🔧 Tools zur Durchsetzung](#-tools-zur-durchsetzung)
+- [📄 Beispiel: .editorconfig](#-beispiel-editorconfig)
+- [🧠 Sonstige Formatierungsrichtlinien (ergänzend)](#-sonstige-formatierungsrichtlinien-ergänzend)
+<!-- /TOC -->
+
 ## 🧭 Übersicht: Standards für Einrückung & Zeilenumbrüche
 
 ### 🔹 Einrückung

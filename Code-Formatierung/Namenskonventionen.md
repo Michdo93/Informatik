@@ -17,6 +17,20 @@ Hier ist eine Übersicht mit **allen gängigen Schreibweisen**, deren **Aliasnam
 
 ---
 
+<!-- TOC -->
+## Inhaltsverzeichnis
+
+- [📋 Übersicht gängiger Case Styles](#-übersicht-gängiger-case-styles)
+- [🧠 Erklärungen zu ausgewählten Schreibweisen](#-erklärungen-zu-ausgewählten-schreibweisen)
+  - [🔸 camelCase](#-camelcase)
+  - [🔸 PascalCase / UpperCamelCase](#-pascalcase--uppercamelcase)
+  - [🔸 snake_case](#-snake_case)
+  - [🔸 SCREAMING\SNAKE\CASE](#-screamingsnakecase)
+  - [🔸 kebab-case](#-kebab-case)
+- [📊 Vergleichstabelle an einem Beispiel: "user profile image"](#-vergleichstabelle-an-einem-beispiel-user-profile-image)
+- [🛠️ Wann verwendet man welche?](#️-wann-verwendet-man-welche)
+<!-- /TOC -->
+
 ## 📋 Übersicht gängiger Case Styles
 
 | Name                       | Aliasnamen                        | Beispiel                 | Typischer Einsatzbereich                          |

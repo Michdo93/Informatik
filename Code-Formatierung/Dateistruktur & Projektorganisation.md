@@ -9,6 +9,20 @@ Auch für **Dateistruktur und Projektorganisation** gibt es etablierte **Standar
 
 ---
 
+<!-- TOC -->
+## Inhaltsverzeichnis
+
+- [🗂️ Allgemeine Prinzipien guter Dateiorganisation](#️-allgemeine-prinzipien-guter-dateiorganisation)
+- [📁 Beispiele für typische Projektstrukturen](#-beispiele-für-typische-projektstrukturen)
+  - [🔹 Python (PEP 8 + Paketstruktur)](#-python-pep-8--paketstruktur)
+  - [🔹 Java (Maven- oder Gradle-Struktur)](#-java-maven--oder-gradle-struktur)
+  - [🔹 Node.js / JavaScript / TypeScript (Common)](#-nodejs--javascript--typescript-common)
+  - [🔹 PHP (PSR-konforme Struktur, z. B. Laravel)](#-php-psr-konforme-struktur-zb-laravel)
+  - [🔹 Go (Standardstruktur nach golang-standards/project-layout)](#-go-standardstruktur-nach-golang-standardsproject-layout)
+- [🧱 Weitere nützliche Ordnerkonventionen (sprachübergreifend)](#-weitere-nützliche-ordnerkonventionen-sprachübergreifend)
+- [📌 Standardisierungsquellen](#-standardisierungsquellen)
+<!-- /TOC -->
+
 ## 🗂️ Allgemeine Prinzipien guter Dateiorganisation
 
 | Prinzip                                     | Bedeutung                                                    |

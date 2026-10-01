@@ -1,6 +1,19 @@
 
 # 📟 JavaScript Styleguide (Beispiel)
 
+<!-- TOC -->
+## Inhaltsverzeichnis
+
+- [1. Allgemeines](#1-allgemeines)
+- [2. Einrückung & Formatierung](#2-einrückung--formatierung)
+- [3. Variablennamen & Deklarationen](#3-variablennamen--deklarationen)
+- [4. Kommentare](#4-kommentare)
+- [5. Imports & Exports](#5-imports--exports)
+- [6. Fehlerbehandlung](#6-fehlerbehandlung)
+- [7. Logging](#7-logging)
+- [8. Sonstiges](#8-sonstiges)
+<!-- /TOC -->
+
 ## 1. **Allgemeines**
 
 * Sprache: ES6+

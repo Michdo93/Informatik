@@ -4,6 +4,20 @@ Ja, es gibt eine ganze Reihe etablierter **Konventionen und Styleguides** – me
 
 ---
 
+<!-- TOC -->
+## Inhaltsverzeichnis
+
+- [🏁 Was ist ein Styleguide?](#-was-ist-ein-styleguide)
+- [🧭 Übersicht gängiger Styleguides nach Sprache](#-übersicht-gängiger-styleguides-nach-sprache)
+- [🔍 Beispiele für konkrete Regeln](#-beispiele-für-konkrete-regeln)
+  - [🔹 Python (PEP 8)](#-python-pep-8)
+  - [🔹 JavaScript (Airbnb)](#-javascript-airbnb)
+  - [🔹 Go](#-go)
+  - [🔹 PHP (PSR-12)](#-php-psr-12)
+- [💼 Weitere nützliche Tools & Formate](#-weitere-nützliche-tools--formate)
+- [🧠 Bonus: Framework-spezifische Konventionen](#-bonus-framework-spezifische-konventionen)
+<!-- /TOC -->
+
 ## 🏁 **Was ist ein Styleguide?**
 
 Ein **Styleguide** oder **Code Conventions Guide** ist eine Sammlung von **Regeln und Empfehlungen** für:

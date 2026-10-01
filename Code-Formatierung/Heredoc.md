@@ -4,6 +4,23 @@ Hier ist eine übersichtliche **Markdown-Tabelle mit Heredoc-Beispielen** für v
 
 ---
 
+<!-- TOC -->
+## Inhaltsverzeichnis
+
+- [✅ Übersicht in Markdown](#-übersicht-in-markdown)
+- [🔍 Codebeispiele ausführlich](#-codebeispiele-ausführlich)
+  - [🔸 PHP (Heredoc)](#-php-heredoc)
+  - [🔸 PHP (Nowdoc – ohne Variablenauswertung)](#-php-nowdoc--ohne-variablenauswertung)
+  - [🔸 Perl](#-perl)
+  - [🔸 Bash / Shell](#-bash--shell)
+  - [🔸 Ruby](#-ruby)
+  - [🔸 Python (kein Heredoc, aber mehrzeiliger String)](#-python-kein-heredoc-aber-mehrzeiliger-string)
+  - [🔸 JavaScript (Template Literal)](#-javascript-template-literal)
+- [📘 Bedeutung typischer Heredoc-Marker](#-bedeutung-typischer-heredoc-marker)
+  - [🔹 Beispiel (frei wählbarer Marker)](#-beispiel-frei-wählbarer-marker)
+  - [🔧 Welche Marker sollte man wann verwenden?](#-welche-marker-sollte-man-wann-verwenden)
+<!-- /TOC -->
+
 ## ✅ Übersicht in Markdown
 
 ````markdown
