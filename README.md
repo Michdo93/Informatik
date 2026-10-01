@@ -2,7 +2,7 @@
 
 Dieses Repository sammelt praxisnahes IT-Wissen für alle, die im Labor (Smart Home, Robotik, autonome Systeme) an der **Hochschule Furtwangen (HFU)** mitarbeiten: studentische Hilfskräfte, Praktikantinnen und Praktikanten sowie Studierende in Projekt- und Abschlussarbeiten.
 
-Wer sich für eine Mitarbeit im Labor interessiert, findet Voraussetzungen, Aufgaben und Rahmenbedingungen im Repository **[Praktika im Smart Home Labor](https://github.com/Michdo93/Praktika-Smart-Home-Labor)**.
+Wer sich für eine Mitarbeit im Labor interessiert, findet Voraussetzungen, Aufgaben und Rahmenbedingungen im Repository **[Praktika im Smart Home Labor](https://github.com/Michdo93/Praktika-Smart-Home-Labor)**. Offene Vorhaben im Labor stehen im **[Smart-Home-Labor-Backlog](https://github.com/Michdo93/Smart-Home-Labor-Backlog)**, Themen für Abschlussarbeiten in **[SmartHome-Ideen](https://github.com/Michdo93/SmartHome-Ideen)**.
 
 Ziel ist eine **schnelle Einarbeitung**: Konventionen, Best Practices und Hintergrundwissen, die man im Studium oft nur am Rande oder gar nicht lernt – die im Laboralltag aber jeden Tag gebraucht werden.
 
@@ -28,6 +28,8 @@ Ziel ist eine **schnelle Einarbeitung**: Konventionen, Best Practices und Hinter
 | [Workarounds & Hacks](Workarounds%20%26%20Hacks/README.md) | Polyfills, Feature Detection, Monkey Patching, Cross-Plattform-Tricks, technische Schulden |
 | [Linux & Werkzeuge](Linux%20%26%20Werkzeuge/README.md) | **systemd-Services**, Bash-Skripte, Benutzer, Gruppen & Rechte, Cron und systemd-Timer |
 | [Netzwerk](Netzwerk/README.md) | IP, Subnetze, Ports, `ping`, ARP, `nmap`, Switches und Schleifen, **HTTP & REST**, Smart-Home-Funkstandards (Zigbee, Z-Wave, Thread, Matter) |
+| [Datenbanken](Datenbanken/README.md) | Relationale Modellierung (1:n, n:m, Normalisierung), Zeitreihen und **openHAB Persistence** |
+| [KI & Sprachverarbeitung](KI%20%26%20Sprachverarbeitung/README.md) | Machine-Learning-Grundlagen, Intents & Entities, **Fuzzy Matching**, Sprachassistenten (Wakeword, STT, TTS) |
 | [Debugging](Debugging/README.md) | Systematisches Vorgehen, Werkzeuge, **Remote-Debugging** auf Pi, VM und Container |
 | [Compiler & Build](Compiler%20%26%20Build/README.md) | Compiler, Interpreter, JIT, Linker, Build-Systeme, **Cross-Compiling** |
 | [Begriffe & Herkunft](Begriffe%20%26%20Herkunft/README.md) | Warum heißt ein Bug „Bug“? Namensherkunft und Analogien |
@@ -53,7 +55,7 @@ Ziel ist eine **schnelle Einarbeitung**: Konventionen, Best Practices und Hinter
 **Zum Vertiefen und Nachschlagen:**
 
 9. [Debugging](Debugging/README.md), [Compiler & Build](Compiler%20%26%20Build/README.md)
-10. [Design Pattern](Design%20Pattern/README.md), [Software-Konzepte](Software-Konzepte/README.md)
+10. [Design Pattern](Design%20Pattern/README.md), [Software-Konzepte](Software-Konzepte/README.md), [Datenbanken](Datenbanken/README.md), [KI & Sprachverarbeitung](KI%20%26%20Sprachverarbeitung/README.md) – besonders vor Projekt- und Abschlussarbeiten
 11. [Workarounds & Hacks](Workarounds%20%26%20Hacks/README.md), [Begriffe & Herkunft](Begriffe%20%26%20Herkunft/README.md)
 
 ---
