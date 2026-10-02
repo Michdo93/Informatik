@@ -24,10 +24,11 @@ Ziel ist eine **schnelle Einarbeitung**: Konventionen, Best Practices und Hinter
 | [Zugriffskontrolle](Zugriffskontrolle/README.md) | Authentifizierung vs. Autorisierung, Whitelist/Blacklist, ACLs in Betriebssystem, Datenbank, MQTT, Firewall, openHAB |
 | [Backup-Strategien](Backup-Strategien/README.md) | Voll/inkrementell/differentiell, Snapshots, VMs vs. Container vs. Datenbanken, Git als Backup, Skripte mit Cron, tar + NAS, Retention, Export/Import, Ansible, Wiederherstellung |
 | [Design Pattern](Design%20Pattern/README.md) | Was Entwurfsmuster sind (und was nicht) und alle **23 GoF-Muster** mit Diagramm und Python-Beispiel |
-| [Software-Konzepte](Software-Konzepte/README.md) | Templates & Templating, Skeleton/Boilerplate/Scaffolding, Bootstrapping, Orchestrierung & Choreografie |
-| [Workarounds & Hacks](Workarounds%20%26%20Hacks/README.md) | Polyfills, Feature Detection, Monkey Patching, Cross-Plattform-Tricks, technische Schulden |
+| [Software-Konzepte](Software-Konzepte/README.md) | Templates & Templating, Skeleton/Boilerplate/Scaffolding, Bootstrapping, **Refactoring & Migration**, Orchestrierung & Choreografie |
+| [Workarounds & Hacks](Workarounds%20%26%20Hacks/README.md) | Polyfills, Feature Detection, Monkey Patching, Cross-Plattform-Tricks, **Reverse Engineering**, technische Schulden |
 | [Linux & Werkzeuge](Linux%20%26%20Werkzeuge/README.md) | **systemd-Services**, Bash-Skripte, Benutzer, Gruppen & Rechte, Cron und systemd-Timer |
 | [Netzwerk](Netzwerk/README.md) | IP, Subnetze, Ports, `ping`, ARP, `nmap`, Switches und Schleifen, **HTTP & REST**, Smart-Home-Funkstandards (Zigbee, Z-Wave, Thread, Matter) |
+| [Virtualisierung](Virtualisierung/README.md) | **Proxmox** (VM vs. LXC, Backups, Umzug, VM → LXC) und **Docker & Compose** im Betrieb |
 | [Datenbanken](Datenbanken/README.md) | Relationale Modellierung (1:n, n:m, Normalisierung), Zeitreihen und **openHAB Persistence** |
 | [KI & Sprachverarbeitung](KI%20%26%20Sprachverarbeitung/README.md) | Machine-Learning-Grundlagen, Intents & Entities, **Fuzzy Matching**, Sprachassistenten (Wakeword, STT, TTS) |
 | [Debugging](Debugging/README.md) | Systematisches Vorgehen, Werkzeuge, **Remote-Debugging** auf Pi, VM und Container |
@@ -50,7 +51,7 @@ Ziel ist eine **schnelle Einarbeitung**: Konventionen, Best Practices und Hinter
 
 6. [MQTT](Best%20Practices/MQTT.md) und [Zugriffskontrolle](Zugriffskontrolle/README.md)
 7. [Ansible](Best%20Practices/Ansible.md), [Cron & systemd-Timer](Linux%20%26%20Werkzeuge/Cron%20%26%20systemd-Timer.md), [HTTP & REST](Netzwerk/HTTP%20%26%20REST.md) und [Web-Server & Deployment](Best%20Practices/Web-Server%20%26%20Deployment.md)
-8. [Backup-Strategien](Backup-Strategien/README.md) – **bevor** etwas verloren geht
+8. [Backup-Strategien](Backup-Strategien/README.md) – **bevor** etwas verloren geht – und [Virtualisierung](Virtualisierung/README.md) für die Arbeit mit Proxmox und Docker
 
 **Zum Vertiefen und Nachschlagen:**
 

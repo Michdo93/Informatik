@@ -18,6 +18,7 @@ In der Praxis passt selten alles perfekt zusammen: Browser unterstützen ein Fea
 | [Feature Detection & Browser-Weichen](Feature%20Detection%20%26%20Browser-Weichen.md) | Feature Detection statt User-Agent-Sniffing, Vendor-Prefixe, Graceful Degradation vs. Progressive Enhancement |
 | [Monkey Patching](Monkey%20Patching.md) | Fremden Code zur Laufzeit verändern – mächtig und gefährlich |
 | [Cross-Plattform-Tricks](Cross-Plattform-Tricks.md) | Pfade, Zeilenenden, Encoding, Shebangs, Linux/Windows/macOS-Unterschiede |
+| [Reverse Engineering](Reverse%20Engineering.md) | Geräte ohne offene Schnittstelle verstehen: rechtlicher Rahmen, Wireshark, BLE-Snoop, serielle Schnittstellen, APKs mit jadx/apktool, Firmware, Dokumentation |
 | [Technische Schulden](Technische%20Schulden.md) | Warum jedes Provisorium Zinsen kostet und wie man Workarounds sauber dokumentiert |
 
 ---

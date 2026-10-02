@@ -18,6 +18,7 @@ Begriffe, die im Alltag ständig fallen, aber selten sauber erklärt werden. Vie
 | [Templates & Templating](Templates%20%26%20Templating.md) | Vorlagen mit Platzhaltern: Jinja2, Ansible-Templates, HTML-Templates, Projekt-Templates, C++-Templates/Generics |
 | [Skeleton, Boilerplate & Scaffolding](Skeleton%2C%20Boilerplate%20%26%20Scaffolding.md) | Grundgerüste für Projekte, wiederkehrender Pflichtcode, Code-Generatoren (Cookiecutter, `ansible-galaxy init`, `npm create`) |
 | [Bootstrapping](Bootstrapping.md) | Sich „an den eigenen Stiefelriemen hochziehen“: Booten, Compiler-Bootstrapping, Bootstrap-Skripte, Cluster-Bootstrap, Bootstrap (CSS) |
+| [Refactoring & Migration](Refactoring%20%26%20Migration.md) | Altprojekte sicher modernisieren: Refactoring vs. Migration vs. Rewrite, Charakterisierungstests, Python 2 → 3, Python-2-Teile kapseln, openHAB-Rule-Engines migrieren |
 | [Orchestrierung & Choreografie](Orchestrierung%20%26%20Choreografie.md) | Zentrale vs. dezentrale Koordination: Kubernetes, Docker Compose, Ansible, Workflows, Event-getriebene Systeme |
 
 ---
