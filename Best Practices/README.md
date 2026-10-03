@@ -21,6 +21,8 @@ Bewährte Vorgehensweisen für den Labor- und Projektalltag. Jedes Dokument begi
 | [Ansible](Ansible.md) | Gruppieren, kleine wiederverwendbare Rollen, Gerät sofort ins Inventar |
 | [Repositories pflegen & archivieren](Repositories%20pflegen%20%26%20archivieren.md) | Lebenszyklus, Mindestinhalt, Deprecated-Hinweis, archivieren statt löschen, Ordnung bei mehreren Code-Varianten |
 | [Web-Server & Deployment](Web-Server%20%26%20Deployment.md) | Nginx als Reverse Proxy mit HTTPS, Flask über Gunicorn, Node.js über pm2 |
+| [Exec Binding & Remote-Ausführung](Exec-Binding%20%26%20Remote-Ausführung.md) | openHAB-Kommandos sicher ausführen: Whitelist, SSH-Keys statt sshpass-Passwort, sudo gezielt, Wake-on-LAN, Alternativen |
+| [Monitoring & Alerting](Monitoring%20%26%20Alerting.md) | Status-Monitoring (Nagios/Icinga/Uptime Kuma) vs. Metriken (Grafana), was überwachen, Alerting ohne Alarm-Müdigkeit |
 
 ## Reihenfolge bei einem neuen Gerät
 

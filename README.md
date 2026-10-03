@@ -20,7 +20,7 @@ Ziel ist eine **schnelle Einarbeitung**: Konventionen, Best Practices und Hinter
 | Ordner | Worum geht es? |
 | --- | --- |
 | [Code-Formatierung](Code-Formatierung/README.md) | Einrückung, Namenskonventionen, Kommentare, Logging, Projektstruktur, Heredoc; Styleguides für **Python, JavaScript, C, C++, C#, Java** |
-| [Best Practices](Best%20Practices/README.md) | Dokumentation, **DHCP** (feste IPs), **Zertifikate** (HTTPS von Anfang an), **SSH** (Port, Keys, sshpass, scp/rsync), **MQTT** (TLS, Passwörter, ACL), **Ansible** (Rollen, Gruppen, Inventar), **Web-Server** (Nginx, Gunicorn, pm2) |
+| [Best Practices](Best%20Practices/README.md) | Dokumentation, **DHCP** (feste IPs), **Zertifikate** (HTTPS von Anfang an), **SSH**, **MQTT**, **Ansible**, **Web-Server**, **Exec Binding** (sicher), **Monitoring** (Nagios/Grafana) |
 | [Zugriffskontrolle](Zugriffskontrolle/README.md) | Authentifizierung vs. Autorisierung, Whitelist/Blacklist, ACLs in Betriebssystem, Datenbank, MQTT, Firewall, openHAB |
 | [Backup-Strategien](Backup-Strategien/README.md) | Voll/inkrementell/differentiell, Snapshots, VMs vs. Container vs. Datenbanken, Git als Backup, Skripte mit Cron, tar + NAS, Retention, Export/Import, Ansible, Wiederherstellung |
 | [Design Pattern](Design%20Pattern/README.md) | Was Entwurfsmuster sind (und was nicht) und alle **23 GoF-Muster** mit Diagramm und Python-Beispiel |
@@ -29,6 +29,8 @@ Ziel ist eine **schnelle Einarbeitung**: Konventionen, Best Practices und Hinter
 | [Linux & Werkzeuge](Linux%20%26%20Werkzeuge/README.md) | **systemd-Services**, Bash-Skripte, Benutzer, Gruppen & Rechte, Cron und systemd-Timer |
 | [Netzwerk](Netzwerk/README.md) | IP, Subnetze, Ports, `ping`, ARP, `nmap`, Switches und Schleifen, **HTTP & REST**, Smart-Home-Funkstandards (Zigbee, Z-Wave, Thread, Matter) |
 | [Virtualisierung](Virtualisierung/README.md) | **Proxmox** (VM vs. LXC, Backups, Umzug, VM → LXC) und **Docker & Compose** im Betrieb |
+| [openHAB](openHAB/README.md) | Laborkonventionen für Betrieb und Konfiguration: Things/Items als Textdateien, Rule Engines, openHAB-Entwurfsmuster, Oberflächen, Sicherheit |
+| [Wissenschaftliches Arbeiten](Wissenschaftliches%20Arbeiten/README.md) | Recherche, Quellen bewerten, Zitieren (IEEE/BibTeX), Literaturverwaltung, KI-Werkzeuge, Aufbau einer Abschlussarbeit |
 | [Datenbanken](Datenbanken/README.md) | Relationale Modellierung (1:n, n:m, Normalisierung), Zeitreihen und **openHAB Persistence** |
 | [KI & Sprachverarbeitung](KI%20%26%20Sprachverarbeitung/README.md) | Machine-Learning-Grundlagen, Intents & Entities, **Fuzzy Matching**, Sprachassistenten (Wakeword, STT, TTS) |
 | [Debugging](Debugging/README.md) | Systematisches Vorgehen, Werkzeuge, **Remote-Debugging** auf Pi, VM und Container |
@@ -57,6 +59,8 @@ Ziel ist eine **schnelle Einarbeitung**: Konventionen, Best Practices und Hinter
 
 9. [Debugging](Debugging/README.md), [Compiler & Build](Compiler%20%26%20Build/README.md)
 10. [Design Pattern](Design%20Pattern/README.md), [Software-Konzepte](Software-Konzepte/README.md), [Datenbanken](Datenbanken/README.md), [KI & Sprachverarbeitung](KI%20%26%20Sprachverarbeitung/README.md) – besonders vor Projekt- und Abschlussarbeiten
+11. [openHAB](openHAB/README.md) – Laborkonventionen für Betrieb und Konfiguration
+12. [Wissenschaftliches Arbeiten](Wissenschaftliches%20Arbeiten/README.md) – für Projekt- und Abschlussarbeiten
 11. [Workarounds & Hacks](Workarounds%20%26%20Hacks/README.md), [Begriffe & Herkunft](Begriffe%20%26%20Herkunft/README.md)
 
 ---
